@@ -15,7 +15,7 @@ public class Balanced_Brackets {
                     return "NO";
                 }
                 char top = stack.pop();
-                if ((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '{' && top != '{')){
+                if ((c == ')' && top != '(') || (c == ']' && top != '[') || (c == '}' && top != '{')){
                     return "NO";
                 }
             }
